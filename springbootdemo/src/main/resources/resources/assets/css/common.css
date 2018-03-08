@@ -1,0 +1,52 @@
+﻿body{
+	font-family: "微软雅黑";
+	min-height: 90% !important;
+}
+.portlet{
+	border: 1px solid #E1E1E1;
+	margin-bottom: 20px;
+}
+.portlet-title{
+	padding: 10px;
+	color: #fff;
+}
+.back-blue{
+	background: #5DB2FF;
+}
+.border-blue{
+	border: 1px solid #5DB2FF;
+}
+.back-green{
+	background: #A0D468;
+}
+.border-green{
+	border: 1px solid #A0D468;
+}
+.portlet-body{
+	padding: 10px;
+}
+.right{
+	text-align: right;
+}
+.btn-group{
+	margin-bottom: 10px;
+}
+.label-hint{
+	font-size: 12px;
+	color: #666;
+}
+.control-label{
+	font-weight: normal;
+}
+.display-hide{
+	display: none;
+}
+/*覆盖样式*/
+.page-sidebar{
+	background:#222D32;
+}
+.breadcrumb a{color: #444;}
+
+.help-block{
+	color: red;
+}
