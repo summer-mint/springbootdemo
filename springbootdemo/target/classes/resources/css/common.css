@@ -1,0 +1,360 @@
+*{
+	font-family: "microsoft yahei";
+}
+.page-body {
+	padding: 18px 20px 0px;
+}
+.mui-content{
+	background: #fff;
+	overflow-x: hidden;
+}
+.oneline{
+	display: -webkit-box;
+	overflow: hidden;
+	white-space: normal;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+p.title{
+	height: 60px;
+	line-height: 60px;
+	margin-left: 20px;
+	border-bottom: 1px solid #E1E1E1;
+	color:#363636;
+	font-size: 18px;
+}
+ul.itemGroup {
+	padding-left: 20px;
+	list-style: none;
+}
+ul.itemGroup li p.heading{
+	color:#999999;
+	font-size: 16px;
+}
+ul.itemGroup li p.content{
+	color:#363636;
+	font-size: 16px;
+	position: relative;
+	padding-left: 12px;
+	padding-right: 20px;
+}
+ul.itemGroup li p.content::before{
+	content: url(../img/dot.png);
+	position: absolute;
+	left: -3px;
+	top:0;
+}
+p.location{
+	color:#363636;
+	font-size: 16px;
+	position: relative;
+}
+
+p.location span.icon{
+	width: 16px;
+	height: 17px;
+	display: inline-block;
+	background: url(../img/icon.png) no-repeat center;
+	background-size: cover;
+	vertical-align: -2px;
+}
+.address{
+	position: absolute;
+	top:0;
+	left:20px;
+	padding-right: 40px;
+}
+p.location a{
+	color:#B6B6B9;
+	position: absolute;
+	right:10px;
+	top: -2px;
+}
+/******************************分页开始*********************************/
+.pagination{
+	border: 1px solid #E1E1E1;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	height: 45px;
+	line-height: 20px;
+}
+.pagination .page-left{
+	float: left;
+	width: 50%;
+}
+.pagination .align-left{
+	text-align: left;
+}
+.pagination .align-right{
+	text-align: right;
+}
+.pagination .page{
+	background: #EEEEEE;
+	color: #428BCA;
+	border: 1px solid;
+	border-color: #E1E1E1;
+	padding: 3px 10px;
+	cursor: pointer;
+}
+.pagination .page:focus{
+	border-color: #E1E1E1;
+}
+.pagination .spot{
+	color: #666;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pagination .active{
+	background: #428BCA;
+	color: #fff;
+	border-color: #428BCA;
+}
+.pagination .page-input{
+	border: 1px solid;
+	border-color: #E1E1E1;
+	padding: 3px 3px;
+	text-align: center;
+	width: 40px;
+}
+/***********************************分页结束*********************************/
+
+/*********************************自定义样式*********************************/
+body{
+	font-family: "微软雅黑" !important;
+}
+.portlet{
+	border: 1px solid #E1E1E1;
+	margin-bottom: 20px;
+}
+.portlet-title{
+	padding: 10px;
+	color: #fff;
+}
+.back-blue{
+	background: #5DB2FF;
+}
+.border-blue{
+	border: 1px solid #5DB2FF;
+}
+.back-green{
+	background: #A0D468;
+}
+.border-green{
+	border: 1px solid #A0D468;
+}
+.portlet-body{
+	/*padding: 10px;*/
+}
+.right{
+	text-align: right;
+}
+.btn-group{
+	margin-bottom: 10px;
+}
+.label-hint{
+	font-size: 12px;
+	color: #666;
+}
+.control-label{
+	font-weight: normal;
+}
+.display-hide{
+	display: none;
+}
+.shear{
+	max-width:250px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	-webkit-text-overflow:ellipsis;
+	-moz-text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.float-right{
+	float: right;
+}
+.price{
+	font-size: 16px;
+	color: red;
+	font-weight:bold;
+}
+.notData{
+	text-align: center;
+	color: #666;
+	padding: 20px;
+}
+/*覆盖样式*/
+.page-sidebar{
+	background:#222D32;
+}
+.breadcrumb a{color: #444;}
+
+.help-block{
+	color: red;
+	margin-top: 0px !important;
+	display:inline !important;
+}
+
+.head{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.padding-left-0{
+	padding-left: 0px;
+}
+.border-1{
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	box-sizing: border-box;
+	padding:10px;
+	margin-top:-1px;
+}
+.selectTime{
+	cursor: pointer !important;
+}
+.textarea{
+	width: 500px;
+	height: 100px;
+	min-height: 70px;
+	min-width: 200px;
+	max-height: 120px;
+	max-width:600px;
+}
+/**覆盖样式*/
+.form-group{
+	margin-bottom: 0px;
+}
+.tab-content{
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.widget-header{
+	/*margin-left: -15px;
+	margin-right: -15px;*/
+}
+.select2-container{
+	width: 100% !important;
+}
+.float-right{
+	float: right;
+}
+
+/**************************列表开始******************************/
+.searchGroup {
+	margin-right: 10px;
+	display: inline !important;
+}
+
+.searchGroup LABEL {
+	height: 24px;
+	float: left;
+	width: 50px;
+	line-height: 24px;
+	text-align: right;
+}
+.searchGroup DIV {
+	padding-left: 15px !important;
+}
+.searchGroup SELECT {
+	height: 24px;
+	line-height: 24px;
+	padding:0;
+	width: 100%;
+}
+/**************************列表结束******************************/
+
+/**************************jquery验证框架错误css开始******************************/
+input.error { border: 1px solid red; }
+label.error {
+	/*background:url("./demo/images/unchecked.gif") no-repeat 0px 0px;*/
+	padding-left: 16px;
+	padding-bottom: 2px;
+	font-weight: bold;
+	color: red!important;
+}
+input.fieldError { border: 1px solid red; }
+label.fieldError {
+	/*background:url("./demo/images/unchecked.gif") no-repeat 0px 0px;*/
+	padding-left: 16px;
+	padding-bottom: 2px;
+	font-weight: bold;
+	color: red!important;
+}
+/**************************jquery验证框架错误css结束******************************/
+
+.important{
+	color: red;
+	padding: 7px 0 0 5px;
+}
+
+.form-group input[type='text']{
+	margin-bottom: 10px;
+}
+.form-group input[type='password']{
+	margin-bottom: 10px!important;
+}
+.form-group input[type='number']{
+	margin-bottom: 10px;
+}
+.form-group input[type='hidden']{
+	margin-bottom: 10px;
+}
+.form-control::-moz-placeholder {
+	color: #ccc;
+	opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+	color: #ccc;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #ccc;
+}
+.form-group input[type='button']{
+	margin-bottom: 0px!important;
+}
+.form-group input[type='submit']{
+	margin-bottom: 0px!important;
+}
+
+.form-group select {
+	margin-bottom: 10px;
+}
+.form-group textarea {
+	margin-bottom: 10px;
+}
+.form-group .content {
+	color: #858585;
+	background-color: #fbfbfb;
+
+	margin-bottom:10px !important;
+	padding: 6px 12px;
+	width: 100%;
+	height: 34px;
+	line-height:34px;
+	vertical-align:middle;
+}
+
+.limit {
+	overflow: hidden;/*内容超出后隐藏*/
+	text-overflow: ellipsis;/* 超出内容显示为省略号*/
+	white-space: nowrap;/*文本不进行换行*/
+	max-width: 100px!important;
+}
+
+td .file-icon-4x {
+	font-size: 2.8em;
+}
+.notData{
+	text-align: center;
+	color: #666;
+	padding: 20px !important;
+}

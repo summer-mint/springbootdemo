@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "microsoft yahei";
+  font-size: 14px;
+}
+#wrapper {
+  width: 1086px;
+  margin: 0 auto;
+  font-family: "microsoft yahei";
+  font-size: 14px;
+  color: #333333;
+}
+#wrapper .head {
+  text-align: center;
+}
+#wrapper .head .printBtn {
+  position: absolute;
+  right: 20px;
+  top:20px;
+}
+#wrapper .head h3,
+#wrapper .head h4 {
+  color: #333333;
+}
+#wrapper .head h3 {
+  font-size: 32px;
+}
+#wrapper .head h4 {
+  font-size: 24px;
+}
+#wrapper .timeBox {
+  /*margin-top: 30px;*/
+}
+#wrapper .timeBox p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+#wrapper .timeBox p span {
+  float: right;
+}
+#wrapper .mainContent .right {
+  text-align: right;
+}
+#wrapper .mainContent table {
+  width: 100%;
+  /*margin: 30px 0 70px;*/
+  margin-top: 5px;
+}
+#wrapper .mainContent table thead tr th {
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  /*padding: 15px 10px;*/
+  padding: 5px 10px;
+}
+#wrapper .mainContent table thead tr th.name {
+  font-size: 18px;
+}
+#wrapper .mainContent table tbody tr td {
+  font-size: 14px;
+  text-align: left;
+  padding: 10px;
+}
+#wrapper .mainContent table tbody tr td span {
+  width: 50px;
+  display: inline-block;
+}
+#wrapper .mainContent table tbody tr.first td {
+  padding-top: 20px;
+}
+#wrapper .mainContent table tbody tr.last td {
+  border-bottom: 1px dashed #333333;
+  padding-bottom: 20px;
+}
+#wrapper .mainContent table tbody tr.head td {
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 1px dashed #333333;
+}
+#wrapper .mainContent table tfoot tr td {
+  padding: 20px 10px;
+}
+#wrapper .mainContent p {
+  text-align: right;
+  font-size: 12px;
+}
+#wrapper .moreTable table.first {
+  margin-bottom: 0;
+}
+#wrapper .moreTable table.last {
+  margin-top: 0;
+}
+#wrapper .moreTable table.last thead tr th {
+  border-top: none;
+  border-bottom: 1px solid #333333;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  padding: 0;
+}
+#wrapper .moreTable table.last thead tr th.name {
+  font-size: 18px;
+}
+/*# sourceMappingURL=count.css.map */
